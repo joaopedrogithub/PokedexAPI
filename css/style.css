@@ -23,23 +23,23 @@ main{
 }
 .pokemonimg{
     position: absolute;
-    bottom: 39%;
-    left: 32%;
+    bottom: 45%;
+    left: 30%;
     transform: translate(-63%,20%);
-    height: 30%;
+    height: 18%;
 }
 .dadospokemon{
     position: absolute;
     font-weight: 600;
     color: rgb(187, 181, 181);
-    top: 34%;
-    left: 60%;
-    font-size: 130%;
+    top: 35.5%;
+    left: 59%;
+    font-size: 100%;
     transform: rotate(-2.5deg)
 
 }
 .nomepokemon{
-    color: rgb(103, 188, 238);
+    color: white;
     text-transform: capitalize;
     font-size: clamp(5px,5vw,18px)
     
@@ -66,5 +66,26 @@ main{
 }
 .botoes{
     position: absolute;
-    
+    left: 58.5%;
+    bottom: 18.5%;
+    transform: translate(0,-5%);
+    rotate: -1.8deg;
+    display: flex;
+    gap: 4px;
+
+}
+.botao{
+    width: 58%;
+    padding: 4%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white ;
+    background-color: #2b2626;
+    font-size: clamp(13px,5vw,0.7rem) ;
+    box-shadow: 1px 1px 0 #2b2626, 2px 2px 0 black ;
+}
+.botao:active{
+    box-shadow: inset 4px 4px #2b2626;
+    font-size: 0.8rem;
 }
